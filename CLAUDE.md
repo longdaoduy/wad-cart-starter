@@ -8,12 +8,14 @@
 
 ## Commands
 - `npm test` — run all tests under `test/`
-- No build step; no separate lint or format script in this project
+- `npm run lint` — run ESLint on `src/` and `test/`
+- No build step
 
 ## Files
 - `src/cart.js` — the only implementation file; edit this
 - `test/cart.test.js` — tests; edit this
-- **Never touch** `package.json` to add a dependency
+- `eslint.config.js` — ESLint rules; do not modify
+- **Never touch** `package.json` to add a runtime dependency
 - **Never touch** `.gitignore`, `README.md`, or any file outside `src/` and `test/`
 
 ## Contract — `cartTotal(items, options)`
