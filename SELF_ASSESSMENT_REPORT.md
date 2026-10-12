@@ -1,5 +1,8 @@
 # Self-assessment — IA#1
 Submitted by: 24127443 — Dao Duy Long
+
+Repository: https://github.com/longdaoduy/wad-cart-starter.git
+
 Total I claim: 92 / 100
 
 | Criterion | Max | I claim | Evidence |
