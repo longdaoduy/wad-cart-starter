@@ -7,11 +7,13 @@ Implement `cartTotal(items, options)` in `src/cart.js`.
 - `src/cart.js` — replace the `throw new Error('not implemented')` stub
 - `test/cart.test.js` — add tests
 
-Do not touch `package.json`, `README.md`, `.gitignore`, or any other file.
+Do not touch `README.md`, `.gitignore`, or any other file outside `src/` and `test/`.
+Do not add runtime dependencies to `package.json`. ESLint is already installed as a devDependency.
 
 ## No dependencies
 Use only what ships with Node.js (`node:test`, `node:assert`).
-Do not install any npm package. Do not add any key to `package.json`.
+Do not install any runtime npm package. Do not add runtime dependencies to `package.json`.
+ESLint is already configured as a devDependency — do not remove it.
 
 ## Contract
 
